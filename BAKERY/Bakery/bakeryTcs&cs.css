@@ -1,0 +1,15 @@
+.h1{
+    text-align: center;
+    text-indent: 0cap;
+    background-color: aqua;
+    font-size:xx-large;
+    color:purple;
+}
+ul{
+    color: blue;
+    font-size:x-large;
+}
+body{
+    background-image:url(20250321_220737579.png) ;
+    backface-visibility:hidden;
+}

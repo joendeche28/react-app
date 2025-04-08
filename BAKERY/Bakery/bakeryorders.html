@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeorders</title>
+    <link rel="stylesheet" href="bakeryorders.css">
+</head>
+<h1>Place Your Order Now</h1>
+<body class="body">
+<form action="" method="" class="form">
+    <fieldset>
+        <legend for="cake" class="legend">Cake Type</legend>
+        <div class="type">
+        <label for="cake">Cake Flavour:</label>
+        <select id="caketype" name="cakeflavour" >
+            <option value="mc">Vanilla</option>
+            <option value="lm">Lemon</option>
+            <option value="mn">Mint</option>
+            <option value="pa">Pineapple</option>
+            <option value="bb">Blueberry</option>
+            <option value="sb">Strawberry</option>
+            <option value="mb">Marble</option>
+            <option value="np">Neapolitan</option>
+            <option value="rv">Red Velvet</option>
+            <option value="fc">Fruit Cake</option>
+        </select>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend for="weight" class="legend">Weight</legend>
+        <div class="type">
+        <label for="weight">Weight:</label>
+        <select id="weight" name="weight" >
+            <option value="">500grams</option>
+            <option value="">1kg</option>
+            <option value="">1.5kg</option>
+            <option value="">2kg</option>
+            <option value="">2.5kg</option>
+            <option value="">3kg</option>
+        </select>
+        </div>
+    </fieldset>
+</form>
+<!--Cupcakes section-->
+<form class="form">
+    <fieldset>
+<legend for="cupcakes">Cupcakes</legend>
+<div class="cupcakes">
+    <label for="cc">Cupcakes</label><br>
+    <input type="radio" id="6pck" name="6pack" value="6">
+    <label for="6pck">6 Pack</label><br>
+    <input type="radio" id="12pck" name="12pack" value="12">
+    <label for="12pck">12 Pack</label>
+    </div>
+</fieldset>
+</form>
+<form class="form">
+<fieldset><legend for="textcake">Writings On Cake</legend>
+<label for="textcake" >Enter The Text To Appear On Your Cake</label>
+<textarea id="caption" name="text on cake" rows="4" cols="50" placeholder="Enter Your Text Here"></textarea><br><br>
+</fieldset>
+</form>
+<!--Button for submit id="submitbtn"-->
+<a href="bakeryorders.js"><button class="submitbtn">Place Order</button></a>
+</body>

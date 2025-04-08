@@ -1,0 +1,82 @@
+.h3{
+    color: blue;
+    text-align: center;
+    font-size: xx-large;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    background-image:url(IMG-20250319-WA0094.jpg);
+    justify-content:space-around;
+    flex-grow:1;
+   border: 5px;
+   border-color:black;
+   border-style: groove;
+   margin:0px 30px 0px 30px;
+   padding: 10px 10px;
+}
+/*styling for navbar*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #800080; 
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+    border: 3px solid black; 
+    width:100%;
+    gap: 20px;
+}
+.hbbtn{
+    width: 200px;
+    height: 40px;
+    text-size-adjust: 30px;
+    background-color:black;
+    color: blueviolet;
+    font-size:large;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    min-width: 120px;
+    padding: 5px;
+}
+.hbbtn:hover{
+    background-color:gold;
+    transform: scale(1.1);
+}
+.hbbtn:active{
+    background-color: aliceblue;
+}
+.mainpagehead{
+    font-size:50px;
+    background-image:url(IMG-20250307-WA0001.jpg) ;
+    margin-top:0px;
+    color: deeppink;
+    background-size:auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 0cqmin;
+
+}
+.mainpagepics{
+    display:flex;
+    margin:40px 30px 40px 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+   background-image: url(IMG-20250319-WA0094.jpg);
+}
+img {
+    width: 200px; /* Adjust width */
+    height: auto; /* Keeps aspect ratio */
+    margin: 10px; /* Adds spacing */
+}
+body{
+    background-image:url(20250321_215923034.png);
+}

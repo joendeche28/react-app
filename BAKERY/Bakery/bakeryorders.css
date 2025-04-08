@@ -1,0 +1,78 @@
+h1{
+    color:#f80404;
+    text-align: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 100px;
+    background-image:url(IMG-20250307-WA0001.jpg);
+    padding-top: 50px;
+    opacity:0;
+    animation:fadein 2s forwards;
+    font: size 5px;
+    background-size: auto;
+}
+@keyframes fadein{
+    from{
+        opacity:0;
+    }
+    to{opacity:1;}
+   }
+form{
+    background-color: purple;
+    text-decoration: aqua;
+    text-size-adjust: 100px;
+}
+.type{
+    background-color:deeppink;
+    text-decoration-color: aqua;
+    text-size-adjust: 50px;
+    padding:20px 40px;    
+    border-width: 20px;
+    margin:20px 30px;
+    text-align:left;
+    height: 50px;
+    width: 200px;
+
+}
+.place{
+    margin: 50px;
+    text-decoration-color:blueviolet;
+    display:block;
+    width: 100px;
+}
+.weight{
+    display: flex;
+    background-color: black;
+    text-decoration-color: aqua;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    text-size-adjust: 100%;
+    margin:10px 50px;
+    background-image:url(IMG-20250319-WA0094.jpg) ;
+}
+.submitbtn{
+    width: 200px;
+    height: 40px;
+    text-size-adjust: 30px;
+    background-color:black;
+    color: blueviolet;
+    font-size:large;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    min-width: 120px;
+    padding: 5px;
+}
+.submitbtn:hover{
+    background-color:gold;
+    transform: scale(1.1);
+}
+.submitbtn:active{
+    background-color: aliceblue;
+}
+.body{
+    background-image:url(20241208_171324.jpg);
+    background-size: contain;
+}
